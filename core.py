@@ -117,6 +117,8 @@ def _floating_festival(d: date) -> str:
         return "母亲节"
     if d.month == 6 and d.weekday() == 6 and 15 <= d.day <= 21:
         return "父亲节"
+    if d.month == 11 and d.weekday() == 3 and 22 <= d.day <= 28:
+        return "感恩节"
     return ""
 
 
